@@ -1,0 +1,34 @@
+body {
+  background: powderblue;
+}
+
+.output {
+  font-size: 200%;
+}
+
+.outputPlain {
+  font-size: 200%;
+  color: blue;
+}
+
+.rb1 {
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, mediumvioletred);
+	background-size: 200%;
+	background-clip: text;
+	animation: rb1Animation 2s linear infinite;
+	-webkit-background-clip: text;
+	-webkit-animation: rb1Animation linear 2s infinite;
+	color: transparent;
+}
+
+@-webkit-keyframes rb1Animation {
+	to {
+		background-position: 200% 100%;
+	}
+}
+
+@keyframes rb1Animation {
+	to {
+		background-position: 200% 100%;
+	}
+}
